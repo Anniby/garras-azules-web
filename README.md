@@ -46,6 +46,13 @@ El sitio incluye las siguientes secciones:
 La planificación, priorización de requerimientos y presentación del producto final fueron dirigidas por **Camila**, en el rol de Product Owner, aplicando los principios de entrega de valor y mejora continua.
 
 ---
+# Creadores de la Pagina Web 
+Product Owner: Camila Parra Barragan
+Scrum Master: Lua Taboada Rojas
+Desarrolladores: Eliazar Apaza, Limberth Ronaldo Vallejos y Chary Minza Velasco
+![WhatsApp Image 2025-10-09 at 17 21 58](https://github.com/user-attachments/assets/ad963bf5-30e9-4f8b-8f5d-100d899beb43)
+
 
 **¡Gracias por visitar nuestro sitio!**  
+
 💙 Banda Escolar Garras Azules — Warnes, Santa Cruz, Bolivia
