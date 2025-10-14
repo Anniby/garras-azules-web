@@ -57,3 +57,4 @@ La planificación, priorización de requerimientos y presentación del producto 
 
 
 💙 Banda Escolar Garras Azules — Warnes, Santa Cruz, Bolivia
+
