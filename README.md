@@ -49,7 +49,7 @@ La planificación, priorización de requerimientos y presentación del producto 
   - Product Owner: Camila Parra Barragán 
   - Scrum Master: Lua Taboada Rojas 
   - Desarrolladores: Eliazar Apaza, Limberth Ronaldo Vallejos y Chary Minza Velasco.
-![Integrantes del Equipo: ](img\integrantes_paginaweb.jpg)
+![Integrantes del Equipo: ](img/integrantes_paginaweb.jpg)
 
 ---
 
@@ -57,4 +57,5 @@ La planificación, priorización de requerimientos y presentación del producto 
 
 
 💙 Banda Escolar Garras Azules — Warnes, Santa Cruz, Bolivia
+
 
