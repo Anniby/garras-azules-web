@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Banda Escolar “Garras Azules”</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- 🔹 ENCABEZADO Y MENÚ PRINCIPAL -->
+<header style="background: linear-gradient(to right, #0077cc, #00bcd4); padding: 20px 30px; text-align: center; color: white;">
+    <h1 style="margin: 0; font-size: 2.5em; letter-spacing: 2px;">BANDA ESCOLAR “GARRAS AZULES”</h1>
+    <p style="margin-top: 5px; font-size: 1.1em;">Unidad Educativa Juana Azurduy de Padilla</p>
+  </header>
+  
+  <nav style="background: #0055a5; padding: 15px 20px; display: flex; justify-content: center; flex-wrap: wrap; gap: 15px;">
+    <button onclick="mostrarSeccion('inicio')" style="background: white; color: #0055a5; border: none; padding: 10px 18px; border-radius: 8px; font-weight: bold; cursor: pointer;">INICIO</button>
+    <button onclick="mostrarSeccion('conocenos')" style="background: white; color: #0055a5; border: none; padding: 10px 18px; border-radius: 8px; font-weight: bold; cursor: pointer;">CONÓCENOS</button>
+    <button onclick="mostrarSeccion('calendario')" style="background: white; color: #0055a5; border: none; padding: 10px 18px; border-radius: 8px; font-weight: bold; cursor: pointer;">CALENDARIO</button>
+    <button onclick="mostrarSeccion('presentaciones')" style="background: white; color: #0055a5; border: none; padding: 10px 18px; border-radius: 8px; font-weight: bold; cursor: pointer;">PRESENTACIONES</button>
+    <button onclick="mostrarSeccion('galeria')" style="background: white; color: #0055a5; border: none; padding: 10px 18px; border-radius: 8px; font-weight: bold; cursor: pointer;">GALERÍA</button>
+    <button onclick="mostrarSeccion('contacto')" style="background: white; color: #0055a5; border: none; padding: 10px 18px; border-radius: 8px; font-weight: bold; cursor: pointer;">CONTÁCTANOS</button>
+  </nav>
+
+  <!-- 🔹 INICIO -->
+  <section id="inicio" class="seccion activa">
+    <h2> ¡Bienvenidos!</h2>
+    <p>Este es el sitio oficial de la Banda Escolar <strong>“Garras Azules”</strong> de la Unidad Educativa Juana Azurduy de Padilla. Aquí encontrarás información sobre nuestros ensayos, presentaciones, galería de fotos y cómo contactarnos.</p>
+  </section>
+
+  <!-- 🔹 CONÓCENOS -->
+  <section id="conocenos" class="seccion">
+    <h2>Conócenos</h2>
+    <p>La Banda Escolar <strong>“Garras Azules”</strong> está conformada por estudiantes de entre <strong>14 y 18 años</strong>, apasionados por la música, la disciplina y el orgullo institucional.</p>
+    <p>Dirigidos por el profesor <strong>Germán Apaza</strong>, ensayan cada sábado desde las <strong>7:00 a.m. hasta el mediodía</strong> y luego desde las <strong>3:00 p.m. hasta las 11:30 p.m.</strong>. También practican en las tardes si no hay clases y en las noches cuando es posible.</p>
+    <p>Han representado a la institución en concursos intercolegiales en <strong>Yapacaní</strong>, <strong>Montero</strong>, <strong>Mineros</strong>, y se preparan para el <strong>Concurso de Bandas de Warnes</strong>.</p>
+  </section>
+
+  <!-- 🔹 CALENDARIO -->
+  <section id="calendario" class="seccion">
+    <h2>Calendario de Ensayos</h2>
+    <div class="tarjeta calendario">
+      🌙 Ensayos oficiales de Lunes a Viernes.
+      <ul>
+        <li>🕖 18:00 p.m. – 22:00 p.m.</li>
+      </ul>
+    </div>
+    <div class="tarjeta calendario">
+      🎺 Ensayos oficiales los sábados:
+      <ul>
+        <li>🕖 7:00 a.m. – 12:00 p.m.</li>
+        <li>🕒 15:00 p.m. – 23:30 p.m.</li>
+      </ul>
+    </div>
+    <div class="tarjeta calendario">
+      📍 Lugar: Unidad Educativa Juana Azurduy de Padilla
+    </div>
+  </section>
+
+  <!-- 🔹 PRESENTACIONES -->
+  <section id="presentaciones" class="seccion">
+    <h2 style="text-align:center;">Presentaciones Destacadas</h2>
+    <div class="tarjeta presentacion">
+      🎺 <strong>Concurso de Yapacani</strong><br>
+      📍 Estadio de Yapacani<br>
+      📅 20 de Septiembre del 2023
+    </div>
+    <div class="tarjeta presentacion">
+      🎉 <strong>Concurso "Toro Warneño"</strong><br>
+      📍 Estadio Principal de Warnes<br>
+      📅 10 de Noviembre del 2023
+    </div>
+    <div class="tarjeta presentacion">
+      🎺 <strong>Concurso Departamental de Santa Cruz</strong><br>
+      📍 Estadio de Santa Cruz<br>
+      📅 18 de noviembre del 2023
+    </div>
+    <div class="tarjeta presentacion">
+      🏫 <strong>Concurso "Copa Benjamin Banegas Vaca"</strong><br>
+      📍 Estadio de Mineros<br>
+      📅 18 de Septiembre del 2025   
+     </div>
+  </section>
+
+  <!-- 🔹 GALERÍA -->
+<section id="galeria" class="seccion">
+  <h2 style="text-align:center;">📸 Galería de Eventos</h2>
+  <div class="galeria pantalla-completa">
+    <img src="./img/evento_1.jpg" alt="Evento 1" onclick="abrirImagen(this.src)" />
+    <img src="./img/evento_2.jpg" alt="Evento 2" onclick="abrirImagen(this.src)" />
+    <img src="./img/evento_3.jpg" alt="Evento 3" onclick="abrirImagen(this.src)" />
+    <img src="./img/evento_4.jpg" alt="Evento 4" onclick="abrirImagen(this.src)" />
+    <img src="./img/evento_5.jpg" alt="Evento 5" onclick="abrirImagen(this.src)" />
+    <img src="./img/evento_6.jpg" alt="Evento 6" onclick="abrirImagen(this.src)" />
+    <img src="./img/evento_7.jpg" alt="Evento 7" onclick="abrirImagen(this.src)" />
+    <img src="./img/evento_8.jpg" alt="Evento 8" onclick="abrirImagen(this.src)" />
+  </div>
+
+  <h3 style="text-align:center;">🎬 Videos de la Banda</h3>
+  <div class="videos" style="text-align:center;">
+    <a href="https://www.facebook.com/share/r/1BeJKcCKDJ/" target="_blank">Video en Facebook 1</a><br>
+    <a href="https://vm.tiktok.com/ZMA94x71Q/" target="_blank">Video en TikTok</a><br>
+    <a href="https://www.facebook.com/share/r/1K5BfD3LoA/" target="_blank">Video en Facebook 2</a>
+  </div>
+</section>
+
+  <!-- 🔹 CONTACTO -->
+  <section id="contacto" class="seccion">
+    <h2>Contáctanos</h2>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px;">
+      <!-- Formulario -->
+      <form id="formulario" action="https://formsubmit.co/camiale240508@gmail.com" method="POST" style="flex: 1 1 400px; max-width: 500px;">
+  <label for="nombre">Nombre completo</label>
+  <input type="text" id="nombre" name="nombre" placeholder="Ej. Camila Parra" required />
+
+  <label for="correo">Correo electrónico</label>
+  <input type="email" id="correo" name="correo" placeholder="Ej. camila@gmail.com" required />
+
+  <label for="mensaje">Mensaje</label>
+  <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+  <!-- 🔁 Redirección personalizada después del envío -->
+  <input type="hidden" name="_next" value="https://anniby.github.io/garras-azules-web/" />
+
+  <!-- Opcional: evitar captcha -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <button type="submit">Enviar mensaje</button>
+</form>
+
+      <!-- Redes -->
+      <div style="flex: 1 1 300px; max-width: 400px; text-align: center;">
+        <p>📱 También puedes encontrarnos en nuestras redes sociales:</p>
+        <a href="https://www.facebook.com/garras.azules.2025/about" target="_blank">Facebook Oficial</a><br>
+        <a href="https://www.youtube.com/@GARRASAZULES-cn3mk/videos" target="_blank">Canal de YouTube</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔍 Modal imagen ampliada -->
+  <div id="modalImagen" onclick="cerrarImagen()">
+    <img id="imagenAmpliada" src="" />
+  </div>
+
+  <!-- 🔹 FOOTER -->
+<footer style="background-color: #0055a5; color: rgb(4, 4, 4); padding: 30px 20px; text-align: center;">
+  <p style="margin-bottom: 10px;">© 2025 Banda Escolar "GARRAS AZULES" | Unidad Educativa: Juana Azurduy de Padilla</p>
+
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; font-size: 0.95em;">
+    <div>
+      <h4 style="margin-bottom: 5px;">👩‍💼 Product Owner</h4>
+      <p>Camila Parra Barragán</p>
+    </div>
+    <div>
+      <h4 style="margin-bottom: 5px;">🧭 Scrum Master</h4>
+      <p>Lua Taboada</p>
+    </div>
+    <div>
+      <h4 style="margin-bottom: 5px;">💻 Desarrolladores</h4>
+      <p>Limberth Ronaldo Vallejos</p>
+      <p>Chary Minza</p>
+      <p>Eliazar Apaza</p>
+    </div>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
